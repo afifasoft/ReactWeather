@@ -11,7 +11,7 @@ var React = require('react');
 
 var Examples = (props) => {
   return(
-    <h3>Examples component stateless func news</h3>
+    <h3>Examples component stateless func news after git setup</h3>
   )
 };
 module.exports = Examples;
