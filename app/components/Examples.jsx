@@ -11,7 +11,10 @@ var React = require('react');
 
 var Examples = (props) => {
   return(
-    <h3>Examples component stateless func news after git setup</h3>
+    <div>
+      <h3>Examples component stateless func news after git setup</h3>
+      <p>Welcome to examples page!</p>
+    </div>
   )
 };
 module.exports = Examples;
