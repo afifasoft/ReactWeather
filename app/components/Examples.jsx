@@ -12,7 +12,7 @@ var React = require('react');
 var Examples = (props) => {
   return(
     <div>
-      <h3>Examples component stateless func news after git setup</h3>
+      <h1>Examples component stateless func news after git setup</h1>
       <p>Welcome to examples page!</p>
     </div>
   )
