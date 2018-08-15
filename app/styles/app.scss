@@ -1,0 +1,17 @@
+$space-large: 2.5rem;
+$title-color: #555;
+$page-topcolor: blue;
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+
+}
+
+.page-top {
+  color:$page-topcolor;
+}
+
+input[type=search]{
+  box-shadow: none;
+}
