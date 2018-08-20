@@ -45,14 +45,14 @@ var Weather = React.createClass({
 
     }
   },
-  componentWillReceiveProps: function (newProps) {
-    var location = newProps.location.query.location;
-
-    if (location && location.length > 0) {
-      this.handleSearch(location);
-      window.location.hash = '#/?location='+location;
-    }
-  },
+  // componentWillReceiveProps: function (newProps) {
+  //   var location = newProps.location.query.location;
+  //
+  //   if (location && location.length > 0) {
+  //     this.handleSearch(location);
+  //     window.location.hash = '#/?location='+location;
+  //   }
+  // },
 
   render: function(){
     var {isLoading,temp, location, errorMessage} = this.state;
